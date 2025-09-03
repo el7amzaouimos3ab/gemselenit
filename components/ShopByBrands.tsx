@@ -27,7 +27,6 @@ const extraData = [
 ];
 
 const ShopByBrands = async () => {
-  const brands = await getAllBrands();
   return (
     <div className="mb-10 lg:mb-20 border border-shop_light_green/20 p-5 lg:p-7 ">
       

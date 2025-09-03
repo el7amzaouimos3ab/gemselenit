@@ -25,16 +25,10 @@ const CheckOut = () => {
   const [, setAddresses] = useState<Address[] | null>(null);
   const [selectedAddress, setSelectedAddress] = useState<Address | null>(null);
   const [customerName, setCustomerName] = useState(user?.fullName ?? "");
-  const [customerPhone, setCustomerPhone] = useState(
-  // if available from Clerk, use it as a default
-  (user as any)?.primaryPhoneNumber?.phoneNumber ?? ""
-  );
+  const [customerPhone, setCustomerPhone] = useState("");
   const [customerCity, setCustomerCity] = useState("Marrakech"); // initial value
 
-  const [customerStreet, setCustomerStreet] = useState(
-  // if available from Clerk, use it as a default
-  (user as any)?.primaryStreet?.Street ?? ""
-  );
+  const [customerStreet, setCustomerStreet] = useState("");
 
   const [customerEmail, setCustomerEmail] = useState(user?.emailAddresses[0]?.emailAddress ?? "");
   const [loading, setLoading] = useState(false);

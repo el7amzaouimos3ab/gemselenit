@@ -22,7 +22,7 @@ import Link from "next/link";
 export function CarouselCandles() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
-  const [selectedTab, setSelectedTab] = useState(productType[0]?.title || "");
+  const [selectedTab] = useState(productType[0]?.title || "");
 
   const query = `
     *[_type == "product" && variant == $variant] | order(name asc) {
