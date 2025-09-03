@@ -46,12 +46,6 @@ const Header = async () => {
             </Link>
           )}
 
-          <ClerkLoaded>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-            {!user && <SignIn />}
-          </ClerkLoaded>
         </div>
       </Container>
     </header>
