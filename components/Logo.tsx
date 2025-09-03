@@ -22,7 +22,7 @@ const Logo = ({
           width="388"
           height="303"
           className={cn(
-          "w-20 h-20",
+          "w-17 h-17",
           className
           )}
           decoding="async"
