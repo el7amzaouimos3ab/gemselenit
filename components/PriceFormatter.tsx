@@ -11,7 +11,7 @@ const PriceFormatter = ({ amount, className }: Props) => {
       ? amount.toLocaleString("fr-MA", {
           style: "currency",
           currency: "MAD",
-          minimumFractionDigits: 2,
+          minimumFractionDigits: 0,
         })
       : "—"; // fallback if amount is undefined
 
