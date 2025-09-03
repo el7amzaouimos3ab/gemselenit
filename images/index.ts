@@ -1,0 +1,10 @@
+import paypalLogo from "./paypalLogo.png";
+import emptyCart from "./emptyCart.png";
+import BNR1 from "./banner/BNR1.png";
+import BNR1Mobile from "./banner/BNR1_mobile.png";
+import BNR2 from "./banner/BNR2.png";
+import BNR2Mobile from "./banner/BNR2_mobile.png";
+import BNR3 from "./banner/BNR3.png";
+import BNR3Mobile from "./banner/BNR3_mobile.png";
+import logo from "./logo.png";
+export { paypalLogo, emptyCart, BNR1, BNR2, logo, BNR1Mobile, BNR2Mobile, BNR3, BNR3Mobile };
