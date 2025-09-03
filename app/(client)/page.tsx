@@ -14,8 +14,9 @@ const Home = async () => {
   const categories = await getCategories(6);
 
   return (
-    <Container className="bg-shop-light-pink">
+    <>
       <CarouselBnr />
+    <Container>
       <CarouselLamps />
       <CarouselProducts/>
       <CarouselCandles />
@@ -24,6 +25,7 @@ const Home = async () => {
       <ShopByBrands />
       <LatestBlog />
     </Container>
+    </>
   );
 };
 
