@@ -17,6 +17,8 @@ const DEAL_PRODUCTS = defineQuery(
     name,
     slug,
     images,
+    quantity,
+    price,
     categories[]->{
       _id,
       _type,
@@ -26,6 +28,7 @@ const DEAL_PRODUCTS = defineQuery(
     }
   }`
 );
+
 
 const PRODUCT_BY_SLUG_QUERY = defineQuery(
   `*[_type == "product" && slug.current == $slug] | order(name asc) [0]`
