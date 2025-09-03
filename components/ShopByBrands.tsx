@@ -1,5 +1,4 @@
 import React from "react";
-import { getAllBrands } from "@/sanity/queries";
 import {  Headset, ShieldCheck, Truck, BanknoteIcon } from "lucide-react";
 
 const extraData = [
