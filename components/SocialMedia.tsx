@@ -17,27 +17,27 @@ interface Props {
 const socialLink = [
   {
     title: "Youtube",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.youtube.com/gemselenit",
     icon: <Youtube className="w-5 h-5" />,
   },
   {
     title: "Facebook",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.facebook.com/gemselenit",
     icon: <Facebook className="w-5 h-5" />,
   },
   {
     title: "instagram",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.instagram.com/gemselenit",
     icon: <Instagram className="w-5 h-5" />,
   },
   {
     title: "tiktok",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.tiktok.com/@gemselenit", 
     icon: <SiTiktok className="w-5 h-5" />,
   },
   {
     title: "X",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.x.com/gemselenit",
     icon: <SiX className="w-5 h-5" />,
   },
 ];

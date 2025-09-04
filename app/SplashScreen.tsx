@@ -20,10 +20,7 @@ export default function SplashScreen({ children }: { children: React.ReactNode }
       <div className="flex items-center justify-center h-screen bg-darkBg">
         <div className="flex flex-col items-center">
           <Logo />
-          <div className="flex justify-center items-center gap-2">
           <Loader2 className="animate-spin w-6 h-6 text-gray-500" />
-          <p className="mt-4 text-lg text-gray-300 font-medium">Loading</p>
-          </div>
         </div>
       </div>
     );
