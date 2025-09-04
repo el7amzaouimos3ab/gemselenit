@@ -6,7 +6,7 @@ interface Props {
 }
 const Title = ({ children, className }: Props) => {
   return (
-    <h2 className={twMerge("text-3xl text-gray-200  font-semibold ", className)}>{children}</h2>
+    <h2 className={twMerge("text-3xl text-gray-200 font-semibold ", className)}>{children}</h2>
   );
 };
 

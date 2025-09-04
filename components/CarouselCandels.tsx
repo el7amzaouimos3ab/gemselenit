@@ -53,15 +53,15 @@ export function CarouselCandles() {
   return (
     <>
     <motion.div
-          className="flex items-center flex-wrap gap-5 justify-between my-10"
+          className="flex items-center flex-wrap gap-5 justify-between my-5"
           initial={{ opacity: 0, y: 50 }}         // start slightly below and invisible
           whileInView={{ opacity: 1, y: 0 }}      // animate when scrolled into view
           viewport={{ once: true, amount: 0.2 }}  // animate only once, trigger when 20% visible
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
     <div className="w-full">
-      <div className="flex items-center flex-wrap gap-5 justify-between my-10">
-        <Title >Bowls</Title>
+      <div className="flex items-center flex-wrap gap-5 justify-between my-5">
+        <Title >Selenite Bowls</Title>
         <Link
         href={"/category/bowls"}
         className="border border-gray-800 px-4 py-1 hover:bg-shop_light_green text-white hover:text-white hover:border-shop_light_green hoverEffect"
