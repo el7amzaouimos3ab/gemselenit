@@ -48,9 +48,17 @@ export function CarouselProducts() {
 
     fetchData();
   }, [selectedTab]);
+  
 
   return (
     <>
+    <motion.div
+              className="flex items-center flex-wrap gap-5 justify-between my-10"
+              initial={{ opacity: 0, y: 50 }}         // start slightly below and invisible
+              whileInView={{ opacity: 1, y: 0 }}      // animate when scrolled into view
+              viewport={{ once: true, amount: 0.2 }}  // animate only once, trigger when 20% visible
+              transition={{ duration: 0.5, ease: "easeOut" }}
+            >
     <div className="w-full">
       <div className="flex items-center flex-wrap gap-5 justify-between my-10">
         <Title >plates</Title>
@@ -100,6 +108,7 @@ export function CarouselProducts() {
         </Swiper>
       )}
     </div>
+    </motion.div>
     </>
   );
 }

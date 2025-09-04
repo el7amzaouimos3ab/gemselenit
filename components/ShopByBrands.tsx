@@ -27,18 +27,19 @@ const extraData = [
 
 const ShopByBrands = async () => {
   return (
-    <div className="mb-10 lg:mb-20 border border-shop_light_green/20 p-5 lg:p-7 ">
+    
+    <div className="mb-10 lg:mb-20">
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  hover:shadow-shop_light_green/20 py-5">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 hover:shadow-shop_light_green/20 ">
         {extraData?.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col mx-auto text-gray-400 items-center px-0 md:px-5 text-center gap-5 group hoverEffect"
+            className="flex flex-col w-full mx-auto border border-shop_light_green/20 p-7 text-gray-400 items-center px-3 md:px-5 text-center gap-3 md:gap-5 group hoverEffect"
           >
             <span className="inline-flex text-gray-200 scale-100 group-hover:scale-90 hoverEffect">
               {item?.icon}
             </span>
-            <div className="text-sm">
+            <div className="flex flex-col gap-1 text-sm">
               <p className="text-gray-200  font-bold capitalize">
                 {item?.title}
               </p>

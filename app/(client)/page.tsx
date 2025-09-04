@@ -16,15 +16,15 @@ const Home = async () => {
   return (
     <>
       <CarouselBnr />
-    <Container>
-      <CarouselLamps />
-      <CarouselProducts/>
-      <CarouselCandles />
+      <Container>
+        <CarouselLamps />
+        <CarouselProducts/>
+        <CarouselCandles />
 
-      <HomeCategories categories={categories} />
-      <ShopByBrands />
-      <LatestBlog />
-    </Container>
+        <HomeCategories categories={categories} />
+        <ShopByBrands />
+        <LatestBlog />
+      </Container>
     </>
   );
 };

@@ -41,14 +41,14 @@ const SingleProductPage = async ({
     return notFound();
   }
   return (
-    <Container className="flex text-gray-300 flex-col md:flex-row gap-10 py-10">
+    <Container className="flex text-gray-300 flex-col md:flex-row gap-10 pb-5  md:py-10">
       {product?.images && (
         <ImageView images={product?.images} isStock={product?.stock} />
       )}
       <div className="w-full md:w-1/2 flex flex-col gap-5">
-        <div className="space-y-1">
+        <div className="space-y-5">
           <h2 className="text-2xl text-gray-200 font-bold">{product?.name}</h2>
-          <p className="text-sm text-gray-300 tracking-wide">
+          <p className="text-sm text-gray-400 tracking-wide">
             {product?.description}
           </p>
           <div className="prose prose-invert max-w-none text-sm text-gray-300 tracking-wide">

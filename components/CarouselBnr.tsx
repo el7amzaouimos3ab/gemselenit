@@ -8,8 +8,17 @@ import HomeBanner from "./HomeBanner"
 import HomeBannerTwo from "./HomeBannerTwo"
 import HomeBannerThree from "./HomeBannerThree"
 
+import {  motion } from "framer-motion";
+
+
 export default function CarouselBnr() {
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+    >
     <div className="relative w-full">
       <Swiper
         modules={[Navigation, Autoplay]}
@@ -51,5 +60,6 @@ export default function CarouselBnr() {
         ›
       </button>
     </div>
+    </motion.div>
   )
 }

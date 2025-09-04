@@ -24,7 +24,7 @@ const Header = async () => {
       <Container className="flex items-center justify-between text-white">
         <div className="w-auto md:w-1/3 flex items-center gap-2 justify-start md:gap-0">
           <MobileMenu />
-          <Logo />
+          <Logo className="hidden md:inline"/>
         </div>
         <HeaderMenu />
         <div className="w-auto md:w-1/3 flex items-center justify-end gap-5">

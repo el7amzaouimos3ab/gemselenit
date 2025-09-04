@@ -21,23 +21,21 @@ const Logo = ({
           loading="lazy"
           width="388"
           height="303"
-          className={cn(
-          "w-17 h-17",
-          className
-          )}
+          className=
+          "w-17 h-17"
           decoding="async"
           data-nimg="1"
           />
       <h2
         className={cn(
-          "hidden md:inline text-2xl text-shop_dark_green font-black tracking-wider uppercase hover:text-shop_light_green hoverEffect group font-sans",
+          " text-2xl text-shop_dark_green font-black tracking-wider uppercase hover:text-shop_light_green hoverEffect group font-sans",
           className
         )}
       >
         gems
         <span
           className={cn(
-            "hidden md:inline text-shop_light_green group-hover:text-shop_dark_green hoverEffect",
+            " text-shop_light_green group-hover:text-shop_dark_green hoverEffect",
             spanDesign
           )}
         >

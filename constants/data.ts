@@ -13,14 +13,14 @@ export const quickLinksData = [
   { title: "Help", href: "/help" },
 ];
 export const categoriesData = [
-  { title: "Plackets", href: "plackets" },
-  { title: "Bowl", href: "bowl" },
-  { title: "Towers", href: "towers" },
-  { title: "Lamps", href: "lamps" },
+  { title: "Plates", href: "plates" },
+  { title: "Bowls", href: "bowls" },
+  { title: "Accessories", href: "accessories" },
+  { title: "Lamps", href: "lamp" },
 ];
 export const productType = [
-  { title: "Plackets", value: "plackets" },
-  { title: "Bowl", value: "bowl" },
-  { title: "Towers", value: "towers" },
+  { title: "Plates", value: "plates" },
+  { title: "Bowls", value: "bowls" },
+  { title: "Accessories", value: "accessories" },
   { title: "Lamps", value: "lamps" },
 ];
